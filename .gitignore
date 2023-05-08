@@ -1,0 +1,7 @@
+data/surface_model/*
+data/shadow/*
+env/*
+__pycache__/*
+*.pyc
+*.pyo
+*.pyd

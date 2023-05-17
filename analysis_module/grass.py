@@ -1,8 +1,8 @@
 import os
 
 # Set environment variable GRASSBIN to the path to the grass executable
-os.environ['GRASSBIN']= r'C:\OSGeo4W\bin\grass78.bat'
-
+os.environ['GRASSBIN']= '"C:\\OSGeo4W\\bin\\grass82.bat"'
+#os.environ['GRASSBIN'] = r'C:\Program Files\GRASS GIS 8.2\etc\grass82.py'
 from grass_session import Session
 from grass.script import core as gcore
 import grass.script as gscript
@@ -15,7 +15,7 @@ from grass.pygrass.modules.shortcuts import temporal as t
 
 # define path to grassdata folder
 mygisdb = 'C:\\Users\\barto\\Documents\\grassdata'
-mylocation = 'copenhagen'
+mylocation ='copenhagen'
 mymapset = 'PERMANENT'
 
 # set up grass session
@@ -26,7 +26,8 @@ folder = r"C:\Users\barto\Documents\Projekter\hvorio\plads-i-solen\data\surface_
 print(folder)
 for index, file in enumerate(folder):
     print(file,index)
-    r.import(input=file, output=file, overwrite=True)
+    gcore.parse_command("r.import", input="{0}".format(file), output="test".format(file), overwrite=True)
+    #r.import(input=file, output=file, overwrite=True)
     if index == 10:
         break
 

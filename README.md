@@ -1,7 +1,7 @@
 # En plads i solen 
 
 <img src="https://placekitten.com/g/120/178" align="right"
-     alt="Size Limit logo by Anton Lovchikov" width="120" height="178">
+     alt="" width="120" height="178">
 
 En plads i solen er en applikation bygget hovedsageligt i Python. Den beregner 
 hvordan skyggen falder på en given dag i København. 
@@ -11,7 +11,7 @@ hvordan skyggen falder på en given dag i København.
 * C.
 
 <p align="center">
-  <img src="https://placekitten.com/g/400" alt="Size Limit CLI" width="738">
+  <img src="https://placekitten.com/g/400" alt="" width="400">
 </p>
 
 ## Sådan bruger man applikationen

@@ -18,6 +18,13 @@ hvordan skyggen falder på en given dag i København.
 
 ## Hvad er den til for?
 
+## Inputs and necessary stuff
+
+1. An elevation model. To be precise a DTM not a DSM
+2. GRASS GIS
+3. Patience
+
+
 ## Sådan virker den
 
 

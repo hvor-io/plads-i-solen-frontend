@@ -4,11 +4,14 @@
      alt="" width="120" height="178">
 
 En plads i solen er en applikation bygget hovedsageligt i Python. Den beregner 
-hvordan skyggen falder på en given dag i København. 
+hvordan skyggen falder på en given dag i København. På denne måde kan data bruges til 
+at fortælle hvor der kan slikkes noget sol. 
 
-* A.
-* B.
-* C.
+Udover Python bruges følgende værktøjer
+
+* GRASS GIS
+* En server med Ubuntu (Digital Ocean i det her tilfælde)
+* En installation af Geoserver
 
 <p align="center">
   <img src="https://placekitten.com/g/400" alt="" width="400">
